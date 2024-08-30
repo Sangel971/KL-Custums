@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Syncopate";
+  src: url(../Fonts/Syncopate/Syncopate-Regular.ttf);
+}
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "poppins";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+$font1: "roboto", sans-serif;
+$font2: "Syncopate", sans-serif;
+$font3: "poppins", sans-serif;
+$white1: rgb(240, 240, 240);
+$black1: rgb(8, 8, 8);
+$color1: rgb(152, 97, 52);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: $font3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: $color1;
+}
+body {
+  background: rgb(222, 212, 198);
+  width: 100%;
+}

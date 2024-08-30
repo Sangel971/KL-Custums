@@ -1,0 +1,47 @@
+// .carousel {
+//   display: flex;
+//   overflow: hidden;
+//   white-space: nowrap;
+//   width: 100%;
+// }
+
+// .carousel-item {
+//   width: 100px; /* Ajuste la largeur selon tes besoins */
+//   height: auto;
+//   animation: scroll 10s linear infinite;
+// }
+
+// @keyframes scroll {
+//   from {
+//     transform: translateX(100%);
+//   }
+//   to {
+//     transform: translateX(-100%);
+//   }
+// }
+
+/* Conteneur principal */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+/* Chaque cellule du tableau */
+.cell {
+  flex: 1 1 30%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Images dans chaque cellule */
+.cell img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
